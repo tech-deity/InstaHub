@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".SplashScreenFragment">
+    tools:context="ui.SplashScreenFragment"
+    android:background="@drawable/background">
 
     <ImageView
 
@@ -15,7 +16,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/todo" />
 
 
     <TextView
@@ -24,8 +26,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="12dp"
         android:fontFamily="@font/lovelo"
-        android:text="From"
-        android:textColor="@color/black"
+        android:text="@string/from"
+        android:textColor="@color/purple_200"
         android:textSize="26sp"
         app:layout_constraintBottom_toTopOf="@+id/insta_tv_2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,11 +40,11 @@
         android:id="@+id/insta_tv_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
-        android:fontFamily="@font/lovelo"
-        android:text="Instagram"
+        android:layout_marginBottom="28dp"
+        android:fontFamily="@font/leoscar_serif"
+        android:text="@string/instagram"
         android:textColor="@color/pink"
-        android:textSize="26sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.553"

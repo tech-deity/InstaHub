@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/splashScreenFragment"
-        android:name="com.techdeity.instahub.SplashScreenFragment"
+        android:name="com.techdeity.instahub.ui.SplashScreenFragment"
         android:label="fragment_splash_screen"
         tools:layout="@layout/fragment_splash_screen" >
         <action
@@ -19,12 +19,12 @@
     </fragment>
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.techdeity.instahub.MainFragment"
+        android:name="com.techdeity.instahub.ui.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" />
     <fragment
         android:id="@+id/signupFragment"
-        android:name="com.techdeity.instahub.SignupFragment"
+        android:name="com.techdeity.instahub.ui.SignupFragment"
         android:label="fragment_signup"
         tools:layout="@layout/fragment_signup" >
         <action
@@ -36,7 +36,7 @@
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.techdeity.instahub.LoginFragment"
+        android:name="com.techdeity.instahub.ui.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
